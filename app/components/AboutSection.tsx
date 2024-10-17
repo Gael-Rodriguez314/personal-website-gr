@@ -8,22 +8,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2 grid grid-cols-4 gap-4">
-        <li>Node.js</li>
-        <li>Next.js</li>
-        <li>PostgreSQL</li>
-        <li>Unity</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Godot</li>
-        <li>C#</li>
-        <li>Python</li>
+        <li>Phtography</li>
+        <li>Organization</li>
+        <li>Splatoon 3</li>
+        <li>Persona</li>
         <li>C++</li>
-        <li>OpenCV</li>
-        <li>Git</li>
-        <li>Google Cloud Platform</li>
-        <li>LLM</li>
-        <li>Deep Learning</li>
-        <li>VR/AR</li>
+        <li>html</li>
       </ul>
       
     ),
@@ -33,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Master&apos;s Computer Science - University of Texas Rio Grande Valley</li>
-        <li>Bachelor&apos;s Computer Science - University of Texas Rio Grande Valley</li>
+        <li>Associates&apos;s interdisciplinary Studies - South Texas College</li>
+        <li>High School Diploma - Progreso High School</li>
       </ul>
     ),
   },
