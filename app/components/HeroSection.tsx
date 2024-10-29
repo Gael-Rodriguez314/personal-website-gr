@@ -22,11 +22,11 @@ const HeroSection = () => {
                 sequence={[
                     "Gael",
                     1000,
+                    "Gamer",
+                    1000,
+                    "Artist",
+                    1000,
                     "Game Developer",
-                    1000,
-                    "Researcher",
-                    1000,
-                    "",
                     1000,
                 ]}
                 wrapper="span"
@@ -35,8 +35,8 @@ const HeroSection = () => {
                 />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          &ldquo;The best way to predict the future is to invent it.&ldquo;
-            — Alan Kay
+          &ldquo;Live as you were to die tomorrow. Learn as if you were to live forever.&ldquo;
+            — Mahatma Gandhi
           </p>
           <div>
           <Link

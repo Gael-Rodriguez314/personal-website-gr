@@ -3,7 +3,7 @@ import Link from "next/link";
 const NavLink = ({href, title}: any) => {
 return (
     <Link href={href} 
-                className="block py-2 pl-3 pr-4 text-[#ABD7BE] sm:text-xl rounded md:p-0 hover:text-white">
+                className="block py-2 pl-3 pr-4 text-purple-400 sm:text-xl rounded md:p-0 hover:text-white">
         {title}
     </Link>
 )

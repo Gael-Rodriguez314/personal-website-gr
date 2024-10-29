@@ -10,8 +10,10 @@ const TAB_DATA = [
       <ul className="list-disc pl-2 grid grid-cols-4 gap-4">
         <li>Phtography</li>
         <li>Organization</li>
-        <li>Splatoon 3</li>
-        <li>Persona</li>
+        <li>Good Listening</li>
+        <li>Good Communication</li>
+        <li>Hardworking</li>
+        <li>Word</li>
         <li>C++</li>
         <li>html</li>
       </ul>
@@ -33,7 +35,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Add Later</li>
+        <li>Marching Band</li>
       </ul>
     ),
   },
@@ -50,19 +52,15 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-sky-300" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} alt="" />
+        <Image src="/images/Computer-Science-clipart.webp" width={500} height={500} alt="" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Game Developer with interest of many topics, from Machine Learning, to Theory.
-            Different skills I have acquired over the years to consider myself a Jack of All Trades, and
-            master to game development since its quite fun.
-
-            My enthusiasm for technology drives me to continue to learn something new, and I have enjoyed
-            learning different topics and also teaching others to pursue certain topics if it finds their
-            intereset. 
+          My name is Gael Rodriguez, and I am a passionate computer science major.
+          I enjoy exploring the intersection of technology and creativity, and I’m particularly interested in game development. 
+          I strive to use my skills to create and contribute on the making of many games and innovative projects. 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
